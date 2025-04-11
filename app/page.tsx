@@ -67,7 +67,7 @@ export default function Home() {
                 <p>
                   I'm Gabriel Martinez, a product-minded software engineer with over 9 years of experience architecting
                   and implementing scalable, secure enterprise applications. Through Digital Dash, my consultancy
-                  established in 2015, I've led technical initiatives across diverse domains including fintech,
+                  established in 2017, I've led technical initiatives across diverse domains including fintech,
                   logistics, and data engineering.
                 </p>
                 <p>
