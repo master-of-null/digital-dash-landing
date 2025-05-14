@@ -4,42 +4,6 @@ import { ArrowLeft, ArrowRight } from "lucide-react"
 export default function ProjectsPage() {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="border-b">
-        <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="h-6 w-6"
-            >
-              <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path>
-            </svg>
-            <span className="font-bold text-xl">Digital Dash</span>
-          </Link>
-          <nav className="hidden md:flex gap-6">
-            <Link href="/#about" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              About
-            </Link>
-            <Link href="/#expertise" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              Expertise
-            </Link>
-            <Link href="/projects" className="text-sm font-medium text-gray-900 transition-colors">
-              Projects
-            </Link>
-            <Link href="/#contact" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              Contact
-            </Link>
-          </nav>
-        </div>
-      </header>
-
       <main className="flex-1">
         <section className="py-12 md:py-16 border-b">
           <div className="container mx-auto px-4">
@@ -69,7 +33,7 @@ export default function ProjectsPage() {
                         </h2>
                         <ArrowRight className="h-5 w-5 text-gray-400 group-hover:text-gray-700 transition-colors" />
                       </div>
-                      <p className="text-gray-500 mb-2">Hands-On CTO & Lead Architect</p>
+                      <p className="text-gray-500 mb-2">Hands-On CTO</p>
                       <p className="text-gray-600 mb-4">
                         Custom ERP system for a commercial airplane engine MRO shop that tracks engine repairs, parts
                         routing, inventory, and requisitions.
@@ -164,6 +128,37 @@ export default function ProjectsPage() {
                         <span className="px-3 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Terraform</span>
                         <span className="px-3 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">IaC</span>
                         <span className="px-3 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">DevOps</span>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+
+                {/* VOI Logistics Project */}
+                <div className="group">
+                  <Link
+                    href="/projects/voi-logistics"
+                    className="block border rounded-lg overflow-hidden hover:shadow-md transition-shadow"
+                  >
+                    <div className="p-6 md:p-8">
+                      <div className="flex justify-between items-start mb-4">
+                        <h2 className="text-2xl font-bold group-hover:text-gray-700">
+                          VOI Logistics
+                        </h2>
+                        <ArrowRight className="h-5 w-5 text-gray-400 group-hover:text-gray-700 transition-colors" />
+                      </div>
+                      <p className="text-gray-500 mb-2">Staff Engineer</p>
+                      <p className="text-gray-600 mb-4">
+                        Led development and management of software and product functions for a team of four engineers. 
+                        Built and maintained serverless infrastructure on AWS, implemented event-driven architecture, 
+                        and managed a network of bots and external agents.
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-3 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">AWS</span>
+                        <span className="px-3 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Serverless</span>
+                        <span className="px-3 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Node.js</span>
+                        <span className="px-3 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">React</span>
+                        <span className="px-3 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Event-Driven</span>
+                        <span className="px-3 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Team Leadership</span>
                       </div>
                     </div>
                   </Link>

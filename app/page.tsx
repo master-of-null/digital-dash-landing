@@ -4,28 +4,6 @@ import Link from "next/link"
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="border-b">
-        <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <Terminal className="h-6 w-6" />
-            <span className="font-bold text-xl">Digital Dash</span>
-          </div>
-          <nav className="hidden md:flex gap-6">
-            <Link href="#about" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              About
-            </Link>
-            <Link href="#expertise" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              Expertise
-            </Link>
-            <Link href="/projects" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              Projects
-            </Link>
-            <Link href="#contact" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              Contact
-            </Link>
-          </nav>
-        </div>
-      </header>
 
       <main className="flex-1">
         {/* Hero Section */}
@@ -172,7 +150,7 @@ export default function Home() {
                         </h3>
                         <ArrowRight className="h-5 w-5 text-gray-400 group-hover:text-gray-700 transition-colors" />
                       </div>
-                      <p className="text-gray-500 mb-2">Hands-On CTO & Lead Architect</p>
+                      <p className="text-gray-500 mb-2">Hands-On CTO</p>
                       <p className="text-gray-600">
                         Custom ERP system for a commercial airplane engine MRO shop that tracks engine repairs, parts
                         routing, inventory, and requisitions.

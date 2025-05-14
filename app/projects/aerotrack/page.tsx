@@ -4,42 +4,6 @@ import { ArrowLeft } from "lucide-react"
 export default function AeroTrackProjectPage() {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="border-b">
-        <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="h-6 w-6"
-            >
-              <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path>
-            </svg>
-            <span className="font-bold text-xl">Digital Dash</span>
-          </Link>
-          <nav className="hidden md:flex gap-6">
-            <Link href="/#about" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              About
-            </Link>
-            <Link href="/#expertise" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              Expertise
-            </Link>
-            <Link href="/projects" className="text-sm font-medium text-gray-900 transition-colors">
-              Projects
-            </Link>
-            <Link href="/#contact" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              Contact
-            </Link>
-          </nav>
-        </div>
-      </header>
-
       <main className="flex-1">
         <article className="py-12 md:py-16">
           <div className="container mx-auto px-4">
@@ -53,7 +17,7 @@ export default function AeroTrackProjectPage() {
 
               <div className="mb-8">
                 <h1 className="text-3xl md:text-4xl font-bold mb-4">AeroTrack Commercial Airplane Engine MRO</h1>
-                <p className="text-xl text-gray-600">Hands-On CTO & Lead Architect</p>
+                <p className="text-xl text-gray-600">Hands-On CTO</p>
               </div>
 
               <div className="prose prose-lg prose-gray max-w-none">
@@ -71,7 +35,7 @@ export default function AeroTrackProjectPage() {
                 </p>
 
                 <h2>My Role</h2>
-                <p>As hands-on CTO and lead architect, I was responsible for:</p>
+                <p>As hands-on CTO, I was responsible for:</p>
                 <ul>
                   <li>Designing and implementing the entire platform from the ground up</li>
                   <li>All data modeling and system architecture decisions</li>

@@ -4,42 +4,6 @@ import { ArrowLeft } from "lucide-react"
 export default function AtmosFinancialProjectPage() {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="border-b">
-        <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="h-6 w-6"
-            >
-              <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path>
-            </svg>
-            <span className="font-bold text-xl">Digital Dash</span>
-          </Link>
-          <nav className="hidden md:flex gap-6">
-            <Link href="/#about" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              About
-            </Link>
-            <Link href="/#expertise" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              Expertise
-            </Link>
-            <Link href="/projects" className="text-sm font-medium text-gray-900 transition-colors">
-              Projects
-            </Link>
-            <Link href="/#contact" className="text-sm font-medium hover:text-gray-600 transition-colors">
-              Contact
-            </Link>
-          </nav>
-        </div>
-      </header>
-
       <main className="flex-1">
         <article className="py-12 md:py-16">
           <div className="container mx-auto px-4">
